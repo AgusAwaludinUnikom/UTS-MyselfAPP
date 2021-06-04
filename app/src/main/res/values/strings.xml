@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Agus</string>
+
+    <string name="home">Home</string>
+    <string name="daily_activity">Daily Activity</string>
+    <string name="gallery">Gallery</string>
+    <string name="music_video">Music Favorite and Video</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="agus">Agus Awaludin</string>
+    <string name="nim">10118067</string>
+    <string name="hobby"> : Main game, Tidur, Makan</string>
+    <string name="makes"> : Kebab </string>
+    <string name="mikes"> : Kopi</string>
+    <string name="interest"> : Woman </string>
+    <string name="cita"> : Membanggakan orang tua</string>
+    <string name="about">Aplikasi ini dibuat berdasarkan tugas UTS yang diberikan mata kuliah AKB</string>
+    <string name="ver">MyselfAPP ver.1.0.0</string>
+
+    <string name="daily_my_daily">My Daily Activity</string>
+</resources>

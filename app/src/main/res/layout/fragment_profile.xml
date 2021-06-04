@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkaqua">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/agussss_round">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_marginVertical="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/agus"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/roboto_regular">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/nim"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/roboto_regular">
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CONTACT"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto_regular">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:onClick="ig"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ig_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="IG"
+                android:textAllCaps="false">
+            </ImageButton>
+
+            <ImageButton
+                android:onClick="wa"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/wa_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="IG"
+                android:textAllCaps="false">
+            </ImageButton>
+
+            <ImageButton
+                android:onClick="gmail"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/gmail_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="IG"
+                android:textAllCaps="false">
+            </ImageButton>
+
+            <ImageButton
+                android:onClick="fb"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/fb_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="IG"
+                android:textAllCaps="false">
+            </ImageButton>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="FIND ME"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto_regular">
+        </TextView>
+
+        <ImageButton
+            android:onClick="maps"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="130dp"
+            android:background="@drawable/maps_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="IG"
+            android:textAllCaps="false">
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ABOUT"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto_regular">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="40dp"
+            android:layout_height="match_parent"
+            android:text="@string/about"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto_regular">
+        </TextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="125dp"
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_round"
+            android:fontFamily="@font/roboto_regular"
+            android:onClick="buka_dialog"
+            android:text="App.Ver."
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

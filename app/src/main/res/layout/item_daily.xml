@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/item_daily_image"></ImageView>
+
+        <TextView
+            android:id="@+id/item_daily_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="new text"
+            android:textSize="18dp"
+            android:layout_weight="3"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/white"/>
+
+
+
+
+</LinearLayout>
+
